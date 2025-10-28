@@ -45,3 +45,20 @@ print(next(G))
 
 print({sum(row) for row in M})
 print({i: sum(M[i]) for i in range(3)})
+
+if not 'a' in D:
+    print('missing key!')
+else:
+    print('correct!')
+
+D = {'a': 1, 'b': 2, 'c': 3}
+
+print(D.get('a', 'missing'))
+print(D.get('e', 'missing'))
+
+D = dict(a=1, b=2, c=3)
+print(D)
+
+print(list(D.keys()))
+print(list(D.values()))
+print(list(D.items()))
