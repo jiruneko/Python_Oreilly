@@ -1,3 +1,3 @@
 # Python_Oreilly
 
-Python basic
+Python basic-intermediate
